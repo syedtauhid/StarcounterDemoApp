@@ -1,0 +1,24 @@
+﻿<link rel="import" href="/sys/polymer/polymer.html">
+
+<template>
+    <template is="dom-bind">
+        <h1>Hi {{model.FullName}}</h1>
+        <fieldset>
+            <label>
+                First Name: 
+            </label>
+            <strong>
+                <input value="{{model.FirstName$::input}}"/>
+            </strong>
+        </fieldset>
+        <fieldset>
+            <label>
+                Last Name:
+            </label>
+            <strong>
+                <input value="{{model.LastName$::input}}"/>
+            </strong>
+        </fieldset>
+        <button value="{{model.SaveTrigger$::click}}" onmousedown="++this.value">Save</button>
+    </template>
+</template>

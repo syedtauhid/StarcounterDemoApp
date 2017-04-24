@@ -1,0 +1,10 @@
+c:\users\user\documents\visual studio 2017\Projects\StarcounterApplication2\StarcounterApplication2\bin\Debug\StarcounterApplication2.exe
+c:\users\user\documents\visual studio 2017\Projects\StarcounterApplication2\StarcounterApplication2\bin\Debug\StarcounterApplication2.pdb
+c:\users\user\documents\visual studio 2017\Projects\StarcounterApplication2\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\StarcounterApplication2\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.exe
+c:\users\user\documents\visual studio 2017\Projects\StarcounterApplication2\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplication2\bin\Debug\StarcounterApplication2.exe
+C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplication2\bin\Debug\StarcounterApplication2.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.exe
+C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.pdb
