@@ -2,7 +2,7 @@
 
 <template>
     <template is="dom-bind">
-        <h1>Hi {{model.FullName}}</h1>
+        <h1>{{model.FullName}}'s Expense List</h1>
         <fieldset>
             <label>
                 First Name: 
@@ -20,5 +20,20 @@
             </strong>
         </fieldset>
         <button value="{{model.SaveTrigger$::click}}" onmousedown="++this.value">Save</button>
+        <hr />
+        <!--<template is="dom-repeat" items="{{model.Spendings}}">
+            <div>
+                <starcounter-include partial="{{item}}"></starcounter-include>
+            </div>
+        </template>-->
+        <p>{{model.Spendings}}</p>
+        <template is="dom-repeat" items="{{model.Expenses}}">
+            <div>
+                <starcounter-include partial="{{item}}"></starcounter-include>
+            </div>
+        </template>
+        <button value="{{model.AddNewExpense$::click}}" onmousedown="++this.value">Add New</button>
+        <hr />
+        <h2> Current Balance: {{model.CurrentBalance}}</h2>
     </template>
 </template>

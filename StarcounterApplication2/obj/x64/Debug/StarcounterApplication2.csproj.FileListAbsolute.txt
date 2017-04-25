@@ -8,3 +8,7 @@ C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplicati
 C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.exe
 C:\Users\user\Documents\Visual Studio 2017\Projects\DemoApp\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.pdb
+D:\Gitrepo-C#\StarcounterDemoApp\StarcounterApplication2\bin\Debug\StarcounterApplication2.exe
+D:\Gitrepo-C#\StarcounterDemoApp\StarcounterApplication2\bin\Debug\StarcounterApplication2.pdb
+D:\Gitrepo-C#\StarcounterDemoApp\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.exe
+D:\Gitrepo-C#\StarcounterDemoApp\StarcounterApplication2\obj\x64\Debug\StarcounterApplication2.pdb

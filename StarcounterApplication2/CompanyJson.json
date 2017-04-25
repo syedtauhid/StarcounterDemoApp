@@ -3,5 +3,9 @@
   "FirstName$": "",
   "LastName$": "",
   "SaveTrigger$": 0,
-  "FullName": ""
+  "FullName": "",
+  "Expenses": [ {} ],
+  "Spendings": [ {} ],
+  "AddNewExpense$": 0,
+  "CurrentBalance": 0
 }

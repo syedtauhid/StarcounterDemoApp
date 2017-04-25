@@ -9,7 +9,7 @@ namespace StarcounterApplication2
         public string FirstName;
         public string LastName;
         public QueryResultRows<Expense> Spendings => Db.SQL<Expense>("SELECT e FROM Expense e WHERE e.Spender=?", this);
-        public decimal CurrentBalance => Db.SQL<decimal>("SELECT SUM(e.Ammount) FROM Expense e WHERE e.Spender=?", this).First;
+        public decimal CurrentBalance => Db.SQL<decimal>("SELECT SUM(e.Amount) FROM Expense e WHERE e.Spender=?", this).First;
     }
 
     [Database]
@@ -48,7 +48,6 @@ namespace StarcounterApplication2
                     {
                         Data = person
                     };
-
                     if (Session.Current == null)
                     {
                         Session.Current = new Session(SessionOptions.PatchVersioning);
@@ -56,6 +55,15 @@ namespace StarcounterApplication2
                     json.Session = Session.Current;
                     return json;
                 });
+            });
+
+            Handle.GET("/helloworld/partial/expense/{?}", (string id) =>
+            {
+                var json = new ExpenseJson()
+                {
+                    Data = DbHelper.FromID(DbHelper.Base64DecodeObjectID(id))
+                };
+                return json;
             });
 
         }
